@@ -1,0 +1,71 @@
+body {
+  color: #161616;
+  position: relative;
+}
+
+/* navigation start*/
+.navbar {
+  background-color: #1c51c2;
+}
+
+.nav-tabs .nav-link {
+  color: #161616;
+}
+
+.nav-tabs .nav-link.active {
+  color: #161616;
+  font-weight: bold;
+}
+/* navigation end*/
+
+.jumbotron {
+  background-color: #88e08b;
+  border-radius: 0;
+}
+
+.btn-primary, .btn-primary:hover {
+  border: 0;
+}
+
+.table .thead-dark th {
+  background-color: #dace2a;
+  border: 0;
+}
+
+.accordion .card {
+  border: 1px solid #e6e3c8;
+}
+
+.accordion .card-header {
+  background-color: #FFF;
+  border-bottom: 1px solid #e6e3c8;
+  cursor: pointer;
+}
+
+.accordion .card-header .btn {
+  color: #161616;
+  text-decoration: none;
+}
+
+.btn.btn-link {
+  padding: 0;
+}
+
+.media-img {
+  border-right: 1px solid #e6e3c8;
+}
+
+.social-container .fab {
+  color: #161616;
+  font-size: 46px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  height: 100px;
+  background-color: #c7781d;
+  color: black;
+}
